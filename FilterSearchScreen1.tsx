@@ -8,6 +8,8 @@ interface Dish {
   description: string;
 }
 
+/*This Screen consists of all the menu items for the Starters Course. */
+
 const FilterSearchScreen1: React.FC<{ route: any; navigation: any }> = ({ route, navigation }) => {
   const [dishes, setDishes] = useState<Dish[]>([]);
   const [savedDishes, setSavedDishes] = useState<Dish[]>([]);
