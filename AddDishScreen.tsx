@@ -6,6 +6,8 @@ const AddDishScreen = ({ navigation }) => {
     navigation.navigate('MenuScreen');
   };
 
+  /* This Screen allows the chef to filter add  menu items to 4 different food courses (Starters, Main Course, Deserts, Drinks).*/
+
   return (
 
     <View style={styles.container}>
