@@ -17,7 +17,7 @@ import FilterSearchScreen4 from './FilterSearchScreen4';
 import OrderScreen from './OrderScreen'
 import DeleteScreen from './DeleteScreen';
 
-// This Screen controls the navigational system of the app, allowing users to navigate between different screens.
+/* This Screen controls the navigational system of the app, allowing users to navigate between different screens. */
 
 
 const Stack = createNativeStackNavigator();
