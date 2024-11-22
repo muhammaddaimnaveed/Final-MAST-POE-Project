@@ -8,6 +8,8 @@ interface Dish {
   description: string;
 }
 
+/*This Screen consists of the resturants main menu, along with additional features such as the total dish counter, average price, filter search, ordering funtionality and  allowing the chef to add and delete menu items.*/
+
 const MenuScreen: React.FC<{ route: any; navigation: any }> = ({ route, navigation }) => {
   const [dishes, setDishes] = useState<Dish[]>([]);
   const [savedDishes, setSavedDishes] = useState<Dish[]>([]);
