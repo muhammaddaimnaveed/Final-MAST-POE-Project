@@ -5,6 +5,8 @@ const DeleteScreen = ({ route, navigation }: { route: any; navigation: any }) =>
   const { dishes, setDishes } = route.params;
   const [currentDishes, setCurrentDishes] = useState(dishes);
 
+  /* This Screen allows the chef to delete menu items from the application */
+
   const handleDelete = (index: number) => {
     const updatedDishes = currentDishes.filter((_, i) => i !== index);
     setCurrentDishes(updatedDishes);
