@@ -7,6 +7,8 @@ const FilterSearchScreen = ({ navigation }) => {
     navigation.navigate('MenuScreen');
   };
 
+  /* This Screen allows the users to filter search and select menu items from 4 different food courses (Starters, Main Course, Deserts, Drinks).*/
+
   return (
 
     <View style={styles.container}>
