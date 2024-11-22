@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
 
 
-/*This Screen allows the customers to view the dishes that they have ordered in the Menu Screen */
+/*This Screen allows the customers to view the dishes that they have ordered from the Menu Screen */
 
 const OrderScreen = ({ navigation, route }) => {
   const { orderedDishes } = route.params;
