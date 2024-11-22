@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, Button, Image, TouchableOpacity, Alert, TextInput } from 'react-native';
 
-/*This Screen allows the chef to add the new dishes name, price, description and image which users can view in the Menu Screen */
-
+/*This Screen allows the chef to add menu items to the Starters Course. */
 const AddDishScreen1: React.FC<{ navigation: any, route: any }> = ({ navigation, route }) => {
   const [dishName, setDishName] = useState<string>('');
   const [price, setPrice] = useState<string>('');
